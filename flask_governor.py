@@ -10,21 +10,26 @@ MONGO_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017')
 DBS_NAME = os.getenv('MONGO_DB_NAME', 'donorsUSA')
 COLLECTION_NAME = 'projects'
 
+
 @app.route('/')
 def home():
-   return render_template('index.html')
+    return render_template('index.html')
+
 
 @app.route('/about')
 def about():
-   return render_template('about.html')
+    return render_template('about.html')
+
 
 @app.route('/projects')
 def projects():
-   return render_template('projects.html')
+    return render_template('projects.html')
+
 
 @app.route('/contact')
 def contact():
-   return render_template('contact.html')
+    return render_template('contact.html')
+
 
 @app.route("/donorsUS/projects")
 def donor_projects():
@@ -51,6 +56,7 @@ def donor_projects():
         projects = collection.find(projection=FIELDS, limit=20000)
         # Convert projects to a list in a JSON object and return the JSON data
         return json.dumps(list(projects))
+
 
 if __name__ == "__main__":
     app.run(debug=True)
