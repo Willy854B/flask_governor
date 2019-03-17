@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Stream2 Final Project</title>
+    <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/keen-dashboards.css')}}">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/dc.css')}}">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='css/custom.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class='container'>
+        <div class='row'>
+            <div class='ti hidden-xs col-sm-6 col-md-6'>
+                <p>William G. <br>
+                For <br>
+                Governor!</p>
+            </div>
+            <div class='col-sm-6 col-md-6 col-lg-6'>
+                <img id="img_1" src="static/assets/images/map.png" alt="Slide 1">
+            </div>
+        </div>
+    </div>
+    <!--change nav color-->
+    <nav class="navbar navbar-inverse">
+        <div class='container'>
+            <div class="nav navbar-header">
+                <a class="navbar-brand" href="#">W-MOVEMENT</a>
+                <!--add button and set class navbar-toggle and collapsed to create menu-->
+                <button type="button" class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target="#myCollapsingList">
+                    <!--creates collapsed menu icon appearance-->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!--the id here is used to link to the button -->
+            <ul id="myCollapsingList" class="nav navbar-nav navbar-right collapse navbar-collapse">
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--adds a jumbotron-->
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Be Part Of The Change!!!</h1>
+            <p>The State of New York will be even greater thanks to you.</p>
+        </div>
+    </div>
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+    <footer>
+        <h2>Your Vote Is Your Choice!</h2>
+        <a href="https://www.facebook.com/W-MOVEMENT/"><i class="fab fa-facebook fa-4x"></i></a>
+        <a href="https://twitter.com/W-MOVEMENT?lang=en"><i class="fab fa-twitter fa-4x"></i></a>
+        <a href="https://instagram.com/W-MOVEMENT?lang=en"><i class="fab fa-instagram fa-4x"></i></a>
+        <p>&copy; 2019 | W-MOVEMENT.com | All Rights Reserved</p>
+    </footer>
+    <!--add bootstrap css here-->
+    <script src="{{ url_for ('static', filename='lib/js/jquery.min.js')}}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/bootstrap.min.js')}}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/crossfilter.js')}}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/d3.js')}}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/dc.js')}}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/queue.js')}}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/keen.min.js')}}"></script>
+    <script src="{{ url_for ('static', filename='js/graph.js')}}"></script>
+    <script src="{{ url_for ('static', filename='js/main.js')}}"></script>
+</body>
+</html>
