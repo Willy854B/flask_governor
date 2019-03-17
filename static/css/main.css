@@ -1,0 +1,172 @@
+footer {
+    padding-top: 5px;
+    background-color: #eee;
+    text-align: center;
+    height: 210px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.jumbotron p {
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+
+#vote {
+    width: 85%;
+    padding-left: 15%;
+    margin-top: 0;
+}
+
+.tit h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.first , .second ,.mi {
+    border-bottom-style: solid;
+    border-bottom-color: #eee;
+    border-bottom-width: 7px;
+}
+
+.mi h2 , h3 {
+    text-align: center;
+}
+
+.ny2 p {
+    text-align: center;
+}
+
+.second {
+    padding-top: 36px;
+    padding-bottom: 45px;
+    font-weight: bolder;
+}
+
+.secondB p {
+    font-weight: normal;
+}
+
+.secondC {
+    border-bottom-style: none;
+}
+
+.third{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.ny h1 {
+    text-align: center;
+}
+
+.ny p {
+    font-size: 1.2em;
+    text-align: justify;
+    margin-bottom: 45px;
+}
+
+#img_1 {
+    float: right;
+    padding-right: 5%;
+}
+
+#im-2 {
+    width: 95%;
+    padding-left: 15%;
+}
+
+.ti p {
+    font-weight: 900;
+    font-size: 2.5em;
+    text-align: center;
+    color: orange;
+    line-height: .9em;
+    padding-top: 25px;
+    padding-left: 0;
+}
+
+.pd .hh3 {
+    margin-top: 6%;
+    margin-bottom: 8%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pd .hh3 h3 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+@media(min-width: 481px) {
+    .second p {
+        font-size: 2em;
+        text-align: justify;
+    }
+}
+
+@media(max-width:767px) {
+    .second p {
+        font-size: 1.2em;
+        text-align: justify;
+        font-weight: bolder;
+    }
+    .secondB p {
+        font-weight: normal;
+    }
+    #img_1 {
+        width: 75%;
+        float: right;
+        padding-right: 34%;
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+}
+
+@media(max-width:768px) and (max-width: 991px) {
+    .container p {
+        font-size: 1.1em;
+    }
+    .container .ti{
+        font-size: 2.6em;
+    }
+    #pa-1 {
+        font-size: 1.01em;
+    }
+    .second {
+        font-size: 1.2em;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .container p {
+        font-size: 1.55em;
+    }
+    .container .ti {
+        font-size: 2em;
+    }
+    #pa-1 {
+        font-size: .94em;
+    }
+}
+
+@media(min-width: 1200px) {
+    .container p {
+        font-size: 1.9em;
+    }
+    .container .ti {
+        font-size: 1.8em;
+    }
+    #pa-1 {
+        font-size: .94em;
+    }
+}
