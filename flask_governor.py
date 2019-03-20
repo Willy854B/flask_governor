@@ -57,6 +57,5 @@ def donor_projects():
         # Convert projects to a list in a JSON object and return the JSON data
         return json.dumps(list(projects))
 
-
 if __name__ == "__main__":
     app.run(debug=True)
