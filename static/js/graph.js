@@ -120,7 +120,7 @@ function makeGraphs(error, donorsUSProjects) {
 
     fundingStatusChart
         .ordinalColors(["#79CED7", "#66AFB2", "#C96A23", "#D3D1C5", "#F5821F"])
-        .height(220)
+        .height(250)
         .radius(90)
         .innerRadius(40)
         .transitionDuration(1500)
