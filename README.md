@@ -179,4 +179,5 @@ Now just run the heroku open command and the website will open in the browser.
 - Social media link images were found and embedded into this project from [Fontaweson](https://fontawesome.com/?from=io).
 
 ### Acknowledgements
-- In general, this portfolio site was created by me using the information I've learned from the **Fullstack Web Developer Program** offered by ** [Code Institute](https://codeinstitute.net)**   
+- In general, this portfolio site was created by me using the information I've learned from the **Fullstack Web Developer Program** offered by ** [Code Institute](https://codeinstitute.net)**.
+   
