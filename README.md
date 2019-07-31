@@ -78,7 +78,7 @@ See the project mock-ups [on Google Presentation]
 
 	NoSQL Database used to store, convert, and present our data in JSON format.
 
-- **Flask](https://palletsprojects.com/p/flask/)**
+- **[Flask](https://palletsprojects.com/p/flask/)**
 
 	This is a Python based micro-framework used to serve our data from the server to our web based interface.
 	
@@ -107,7 +107,7 @@ The following tests have been executed to make sure this project functions as ex
 
 ## Contributing
 ### Getting the code up and running
-clone this repository into the editor you normally use by typing ```git clone https://github.com/Willy854B/flask_governor```command in your terminal. To cut ties with this Github repository, type ```git remote rm origin``` in the terminal.
+clone this repository into the editor you normally use by typing ```git clone https://github.com/Willy854B/flask_governor``` command in your terminal. To cut ties with this Github repository, type ```git remote rm origin``` in the terminal.
 
 To run the code locally on your computer, you need to:
 
@@ -179,5 +179,5 @@ Now just run the heroku open command and the website will open in the browser.
 - Social media link images were found and embedded into this project from [Fontaweson](https://fontawesome.com/?from=io).
 
 ### Acknowledgements
-- In general, this portfolio site was created by me using the information I've learned from the **Fullstack Web Developer Program** offered by ** [Code Institute](https://codeinstitute.net)**.
+- In general, this portfolio site was created by me using the information I've learned from the **Fullstack Web Developer Program** offered by **[Code Institute](https://codeinstitute.net)**.
    
